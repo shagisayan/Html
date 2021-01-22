@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Uki_PRESENTATION 02</title>
+        <body>
+            <!--method attribute-->
+            <center>
+            <form action="/action_page.php" target="_self" method="get">
+
+                <fieldset style="height:70%;width:40%;">
+                    <legend align="center">Uki.life</legend>
+
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="sayanthan"><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="shagira"><br><br>
+                <input type="submit" value="Submit">
+
+                <br><br>
+            <!--readonly-->
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="sayanthan" readonly><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="shagira">
+
+                <br><br>
+            <!--disabled-->
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" value="sayanthan" disabled><br>
+                <label for="lname">Last name:</label><br>
+                <input type="text" id="lname" name="lname" value="shagira">
+
+                <br><br>
+            <!--size,maxlength-->
+                <label for="fname">First name:</label><br>
+                <input type="text" id="fname" name="fname" size="50"><br>
+                <label for="pin">PIN:</label><br>
+                <input type="text" id="pin" name="pin" maxlength="7" size="4">
+
+                <br><br>
+            <!--min,max-->
+                <label for="quantity">Quantity (between 1 and 10):</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="10">
+
+                <br><br>
+            <!--multiple-->
+                <label for="files">Select files:</label>
+                <input type="file" id="files" name="files" multiple>
+                <input type="submit" value="Submit">
+                <br><br
+                >
+            </fieldset>
+            </form>
+            </center>
+        </body>
+    </head>
+</html>

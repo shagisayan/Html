@@ -1,0 +1,11 @@
+body{
+    background-color: burlywood;
+    color:crimson;
+    height: 1500px;
+    width: 800px;
+    text-align: center;
+    margin: auto;
+}
+html{
+    background-color: aqua;
+}

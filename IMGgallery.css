@@ -1,0 +1,45 @@
+HTML{
+    background-color: darkslategray;
+}
+
+body{
+    background-color: cadetblue;
+    color: crimson;
+    height: 1500px;
+    width: 800px;
+    margin: 0 auto;
+}
+.imgbx{
+    
+    height: 250px;
+    width: 100%;
+    float: left;
+   
+}
+.gall{
+    float: left;
+    background-color: burlywood;
+    margin-left:60px ;
+    margin-bottom: 25px;
+  
+}
+.bx{
+    height: 200px;
+    width: 280px;
+    padding: 15px;
+}
+h3{
+    color: black;
+    text-align: center;
+    
+    
+}
+h1{
+    text-align: center;
+}
+/*
+.gall img:hover{
+    filter: none;
+    transform: scale(1.5);
+}
+*/
